@@ -1,9 +1,9 @@
-div.teaching{
+div.career{
   display:flex;
   flex-direction:row;
   margin:20px 0
 }
-div.teaching div.left{
+div.career div.left{
   width:120px;
   flex-shrink:0;
   margin-right:20px;
@@ -11,30 +11,30 @@ div.teaching div.left{
   text-align:right;
   font-weight:700
 }
-div.teaching div.left div.role{
+div.career div.left div.role{
   text-align:right;
   font-weight:700
 }
-div.teaching div.left div.role span.emphasize{
+div.career div.left div.role span.emphasize{
   color:#048a0f
 }
-div.teaching div.left div.year{
+div.career div.left div.year{
   text-align:right;
   font-weight:400
 }
-div.teaching div.right div.class{
+div.career div.right div.class{
   color:#222;
   font-family:Lato,Arial,sans-serif;
   font-size:1.2em
 }
-div.teaching div.right div.detail{
+div.career div.right div.detail{
   color:#868f97
 }
-div.teaching div.right div.detail span.link{
+div.career div.right div.detail span.link{
   font-style:normal;
   font-size:.8em
 }
-div.teaching div.right div.detail p:first-of-type{
+div.career div.right div.detail p:first-of-type{
   margin-top:0
 }
 div.internship{
