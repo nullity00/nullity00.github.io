@@ -89,7 +89,7 @@ div.career div.right div.detail p:first-of-type {
 }
 
 html {
-  overflow-y: scroll;
+  overflow: hidden;
 }
 body {
   font-family: Lato, Arial, sans-serif;
@@ -126,11 +126,20 @@ h1.title {
   font-size: 1.2em;
   border-bottom: 1pt solid #000000;
 }
-.content img {
+.content {
+  overflow: auto;
+  height: 95vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.index img {
   margin-left: auto;
   margin-right: auto;
 }
 .justify-center {
   display: flex;
   justify-content: center;
+}
+.content::-webkit-scrollbar {
+  display: none;
 }
